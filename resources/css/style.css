@@ -1,0 +1,266 @@
+/* ----------------------------------------- */
+/* CSS RESET */
+/* ----------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+ol, ul {
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+
+
+/* ----------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------- */
+
+
+html,
+body {
+    background-color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    color: #707070;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    margin: 0 auto;
+    
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+/* ----------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------a-------------------------------- */
+
+.nav-content {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.main-nav a:link,
+.main-nav a:visited {
+    text-decoration: none;
+    color: #707070;
+    padding-bottom: 10px;
+    font-weight: 600;
+    
+    
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+    color: #555555;
+    border-bottom: 2px solid #FD8369;
+    border-radius: 1px;
+    
+}
+
+.main-nav li {
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+    
+}
+
+/* ----------------------------------------- */
+/* HEADINGS */
+/* ---------a-------------------------------- */
+h1,
+h2,
+h3 {
+    color: #000000;
+    
+}
+
+h2 {
+    font-size: 120%;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 110%;
+    font-weight: 500;
+    text-align: center;
+    color: #FD8369
+}
+
+h2::after {
+    display: block;
+    content: "";
+    width: 40px;
+    height: auto;
+    border-bottom: 2px solid #74d5de6b;
+    margin: 15px 0;
+}
+
+.hero-text-box h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 400%;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+
+.hero-text-box h1::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: auto;
+    margin-top: -30px;
+    margin-bottom: 15px;
+    border-bottom: 20px solid #74d5de6b;
+}
+
+.hero-text-box-welcome {
+    margin-bottom: 20px;
+    font-size: 120%;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.hero-text-box-text {
+    color: #6d6d6d;
+    line-height: 135%;
+    font-weight: 400;
+    font-size: 95%;
+    
+}
+
+
+
+
+.hero-text-box-social {
+    margin-top: 30px;
+    display: flex;
+    width: 50px;
+    
+}
+
+/* ----------------------------------------- */
+/* KNOWLEDGE */
+/* ---------a-------------------------------- */
+
+.section-knowledge {
+    background-color: #F3F3F3;
+    
+    
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+.icon-big {
+    font-size: 400%;
+}
+
+.test {
+    padding: 20px;
+    
+}
+
+.section-knowledge-list {
+    list-style:square;
+    margin: 20px 0 20px 20px;
+    
+}
+
+.section-knowledge-list li {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/* ----------------------------------------- */
+/* FORM */
+/* ----------------------------------------- */
+
+.contact-form {
+    width: 90%;
+   
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #FECC92;
+}
+
+textarea {
+    height: 100px;
+}
+
+*:focus {
+    outline: none;
+
+}
+
+/* ----------------------------------------- */
+/* FORM */
+/* ----------------------------------------- */
+
+footer {
+    margin: 20px 0 0 0;
+    background-color: #828282;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 80%;
+}
