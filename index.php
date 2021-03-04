@@ -43,7 +43,7 @@
                         <h1>Dimitris Var</h1>
                         <p class="hero-text-box-welcome">Welcome to my website!</p>
                         <p class="hero-text-box-text">
-                            My name is Dimitris, 22 years old from Greece currently located in Darmstadt, Germany.  I really like to make stuff, mess up with circuits and make things work as I want!
+                            My name is Dimitris, I'm 22 years old from Greece currently located in Darmstadt, Germany.  I really like to make stuff, mess up with circuits and make things work as I want!
                         </p>
                         <div class="hero-text-box-social">
                             <a href="https://github.com/DimitrisVar"><svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 96.017 96.017">
@@ -115,7 +115,17 @@
                 <h2>Contact Me</h2>
             </div>
             <div class="row">
-                <form method="post" action="#" class="contact-form">
+                <form method="post" action="mailer.php" class="contact-form">
+                    <div class="row">
+                        <?php
+                            if($_GET['success'] == 1) {
+                                echo "<div class=\"form-messages success\">Thank you! Your message has been sent.</div>";
+                            }
+                            if($_GET['success'] == -1) {
+                                echo "<div class=\"form-messages error\">Oops, something went wrong, please try again!</div>";
+							}
+                        ?>
+                    </div>
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name &#8727;</label>

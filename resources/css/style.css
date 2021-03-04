@@ -333,3 +333,27 @@ footer p {
     padding: 10px 0;
     font-size: 80%;
 }
+
+/* ----------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------- */
+
+.form-messages {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.success {
+    background-color: #6FC9CE;
+    color: #fff;
+    text-align: center;
+}
+
+.error {
+    background-color: #FD8369;
+    color: #fff;
+    text-align: center;
+}
