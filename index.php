@@ -17,7 +17,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap"
             rel="stylesheet">
         <link rel="shortcut icon" href="resources/img/favicon.ico">
-        <script type="text/javascript" src="resources/js/loader.js"></script>
+        <script src="resources/js/loader.js"></script>
         <title>DimitrisVar - Varytimos Dimitrios</title>
     </head>
 
@@ -95,7 +95,7 @@
                 <div class="row">
                     <div class="knowledge-section-content">
                         <div class="section-title">
-                            <h2>Knowledge</h>
+                            <h2>Knowledge</h2>
                         </div>
                         <div class="section-box section-box-1">
                             <div class="section-box-container">
@@ -155,42 +155,43 @@
             <!---------- SECTION FORM ---------->
             <section class="form-section" id="contact">
                 <div class="row">
-                <div class="form-section-container">
-                    <h2>Contact Me</h2>
-                    <form method="post" action="mailer.php" class="contact-form">
-                        <div class="contact-form-container">
-                            <div class="contact-form-container-left">
-                                <label for="name">Name &#8727;</label>
+                    <div class="form-section-container">
+                        <h2>Contact Me</h2>
+                        <form method="post" action="mailer.php" class="contact-form">
+                            <div class="contact-form-container">
+                                <div class="contact-form-container-left">
+                                    <label for="name">Name &#8727;</label>
+                                </div>
+                                <div class="contact-form-container-right">
+                                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                                </div>
                             </div>
-                            <div class="contact-form-container-right">
-                                <input type="text" name="name" id="name" placeholder="Your name" required>
+                            <div class="contact-form-container">
+                                <div class="contact-form-container-left">
+                                    <label for="email">Email &#8727;</label>
+                                </div>
+                                <div class="contact-form-container-right">
+                                    <input type="email" name="email" id="email" placeholder="Your email" required>
+                                </div>
                             </div>
-                        </div>
-                        <div class="contact-form-container">
-                            <div class="contact-form-container-left">
-                                <label for="email">Email &#8727;</label>
+                            <div class="contact-form-container">
+                                <div class="contact-form-container-left">
+                                    <label for="message">Message</label>
+                                </div>
+                                <div class="contact-form-container-right">
+                                    <textarea name="message" id="message" placeholder="Your message"></textarea>
+                                </div>
                             </div>
-                            <div class="contact-form-container-right">
-                                <input type="email" name="email" id="email" placeholder="Your email" required>
+                            <div class="contact-form-container">
+                                <div class="contact-form-container-left">
+                                    <label>&nbsp;</label>
+                                </div>
+                                <div class="contact-form-container-right">
+                                    <input type="submit" value="Send">
+                                </div>
                             </div>
-                        </div>
-                        <div class="contact-form-container">
-                            <div class="contact-form-container-left">
-                                <label for="message">Message</label>
-                            </div>
-                            <div class="contact-form-container-right">
-                                <textarea name="message" id="message" placeholder="Your message"></textarea>
-                            </div>
-                        </div>
-                        <div class="contact-form-container">
-                            <div class="contact-form-container-left">
-                                <label>&nbsp;</label>
-                            </div>
-                            <div class="contact-form-container-right">
-                                <input type="submit" value="Send">
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </section>
 
