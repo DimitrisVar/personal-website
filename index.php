@@ -8,9 +8,9 @@
         <meta name="keywords"
             content="DimitrisVar, Dimitris, Varytimos, Dimitrios, Varytimos Dimitrios, Varytimos Dimitris" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
-        <link rel="stylesheet" type="text/css" href="/resources/css/queries.css">
-        <link rel="stylesheet" type="text/css" href="/vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
             rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -112,8 +112,9 @@
                                 <h3>Web Dev & Frameworks</h3>
                                 <ul>
                                     <li>HTML5, CSS3/SASS</li>
+                                    <li>CSS Grid, Flexbox</li>
                                     <li>Bootstrap</li>
-                                    <li>Flexbox</li>
+                                    
                                 </ul>
                             </div>
                         </div>

@@ -121,9 +121,51 @@ FONT SIZE SYSTEM (px)
 @media only screen and (max-width: 480px) {
 
     /* SECTION KNOWLEDGE */
+    .header-text-box h1 {
+        font-size: 44px;
+    }
+
+    .header-text-box h1::after {
+        margin-top: -25px;
+    }
+    
+    .text-box-description {
+        font-size: 20px;
+    }
+
+    .text-box-content {
+        font-size: 14px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    
+    .text-box-social svg {
+        height: 50px;
+        width: 50px;
+    }
 
     .knowledge-section {
         padding: 24px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .section-box li {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 14px;
     }
 
     /* SECTION CONTACT */
@@ -134,10 +176,32 @@ FONT SIZE SYSTEM (px)
     .section-box {
         padding: 0;
     }
-    /* SECTION CONTACT */
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #FECC92;
+        font-size: 14px;
+    }
+
+    .contact-form-container-right {
+        display: flex;
+        justify-content: flex-end;
+    }
 
     .form-section {
         padding: 0px;
     }
+
+    /* SECTION FOOTER */
+    footer p {
+        font-size: 10px;
+    }
+    
+    
     
 }
