@@ -1,0 +1,100 @@
+body {
+  background-color: #fff;
+  font-family: "Quicksand", sans-serif; }
+
+.navbar {
+  background-color: #fff; }
+  .navbar li {
+    padding: 0.5rem; }
+
+h3 {
+  text-transform: uppercase;
+  columns: #fff; }
+
+.about-me h1 {
+  font-family: "Frank Ruhl Libre", serif; }
+.about-me h1::after {
+  display: block;
+  content: "";
+  width: 75%;
+  height: auto;
+  margin-top: -35px;
+  border-bottom: 20px solid #74d5de6b; }
+
+.fas {
+  font-size: 0rem; }
+
+.icon-1 {
+  color: #007bff;
+  background-color: #74D5DE;
+  padding: 1rem;
+  border-radius: 20%;
+  opacity: 0.3; }
+
+.heading-title-bg-dark {
+  background-color: #F3F3F3; }
+
+.heading-title h2, .projects h2 {
+  display: block;
+  border-right: auto solid #E1E1E1; }
+.heading-title .card, .projects .card {
+  margin-bottom: 2rem;
+  min-height: 300px; }
+
+.card-footer {
+  background-color: #fff; }
+
+.contact h2 {
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 14px solid #74d5de6b; }
+
+.heading-title-left-orange {
+  border-bottom: 10px solid rgba(253, 131, 105, 0.5);
+  align-self: center; }
+
+.heading-title-right-orange {
+  border-bottom: 10px solid rgba(253, 131, 105, 0.5);
+  align-self: center; }
+
+.heading-title-left-blue {
+  border-bottom: 10px solid rgba(116, 213, 222, 0.5);
+  align-self: center; }
+
+.heading-title-right-blue {
+  border-bottom: 10px solid rgba(116, 213, 222, 0.5);
+  align-self: center; }
+
+.about-me p {
+  letter-spacing: 0.4px;
+  line-height: 1.6; }
+
+label, input {
+  margin-bottom: 1.5rem; }
+
+/* ----------------------------------------- */
+/* PRE-LOADER */
+/* ----------------------------------------- */
+.loader {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.loader img {
+  width: 100px; }
+
+.loader.hidden {
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards; }
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
